@@ -1,0 +1,124 @@
+.container1 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container2 {
+  background-color: #3367d6;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.history {
+  height: 35px;
+  width: 65px;
+  margin: 10px;
+}
+.searchInput {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.searchImageBackground {
+  background-color: #2850a7;
+  height: 30px;
+  width: 40px;
+  border-style: solid;
+  border-width: 0px;
+  outline: none;
+  border-color: #ececec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  box-shadow: #f8fafc 0.5px 0.5px;
+}
+.search {
+  height: 20px;
+  width: 20px;
+}
+.input {
+  height: 30px;
+  width: 150px;
+  background-color: #2850a7;
+  border-style: solid;
+  border-width: 0px;
+  outline: none;
+  border-color: #ececec;
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 4px;
+  box-shadow: #f8fafc 0.5px 0.5px;
+}
+.container3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-y: auto;
+  margin-top: 0px;
+}
+.container3Dual {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8fafc;
+}
+.nohistory {
+  color: #6697ff;
+  font-size: 25px;
+}
+.unorderList {
+  list-style-type: none;
+  width: 100%;
+  background-color: #f8fafc;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 0px;
+  box-shadow: #ececec 2px 2px 2px 2px;
+  padding: 5px;
+  margin-top: 0px;
+  overflow-y: auto;
+}
+@media all and (min-width: 768px) {
+  .container2 {
+    height: 80px;
+  }
+  .history {
+    height: 60px;
+    width: 95px;
+    margin: 25px;
+  }
+  .searchInput {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nohistory {
+    font-size: 35px;
+  }
+
+  .searchImageBackground {
+    background-color: #2850a7;
+    height: 50px;
+    width: 70px;
+    border-style: solid;
+    margin-left: 20px;
+  }
+  .search {
+    height: 35px;
+    width: 35px;
+  }
+  .input {
+    height: 50px;
+    width: 300px;
+    font-size: 25px;
+    margin-left: 4px;
+  }
+}
